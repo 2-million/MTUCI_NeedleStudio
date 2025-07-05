@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Courier New";
+  src: url("../fonts/couriernew.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Courier New Bold";
+  src: url("../fonts/couriernewbold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Courier New Italic";
+  src: url("../fonts/couriernewitalic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gorod";
+  src: url("../fonts/Gorod.otf") format("opentype");
+  font-display: swap;
+}

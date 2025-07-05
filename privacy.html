@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline';
+      style-src 'self' 'unsafe-inline';
+      img-src 'self';
+      font-src 'self';
+      connect-src 'self' http://127.0.0.1:5501 http://localhost:3000 ws://localhost:3000;
+      frame-src https://yandex.ru https://*.yandex.ru https://needlestudio.s20.online;
+      object-src 'none';
+    "
+    />
+    <meta
+      name="description"
+      content="Обучаем искусству тату и предлагаем трудоустройство. Реализуйте свои творческие амбиции с нами!"
+    />
+    <meta
+      name="keywords"
+      content="тату, школа, тату школа, тату школа Москва, тату-школа, татуировка, татуировки, татушки, тату-школа в Москве, обучение татуировке, курсы тату мастеров, тату обучение с нуля, тату обучение, профессиональные курсы тату, курсы тату, художественное обучение, обучение, учеба тату"
+    />
+    <meta property="og:title" content="NEEDLE STUDIO" />
+    <meta property="og:image" content="styling/images/NEEDLE.svg" />
+    <link rel="icon" href="styling/images/NEEDLE.svg" />
+    <link rel="stylesheet" href="styling/fonts/fonts.css" />
+    <link rel="stylesheet" href="styling/style.css" />
+    <title>NEEDLE STUDIO</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <img
+          src="styling/images/NEEDLE.svg"
+          alt="NEEDLE STUDIO"
+          class="logo"
+          loading="lazy"
+        />
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="mainNav">
+          <a href="index.html">Главная</a>
+          <button id="trialBtn">Записаться</button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="center-privacys">
+      <h5>Политика в отношении обработки персональных данных</h5>
+      <br />
+      <p>
+        Политика в отношении обработки персональных данных политика в отношении
+        обработки персональных данных политика в отношении обработки
+        персональных данных политика в отношении обработки персональных данных
+        политика в отношении обработки персональных данных политика в отношении
+        обработки персональных данных политика в отношении обработки
+        персональных данных.
+      </p>
+      <br />
+      <ul>
+        <li>
+          <p>
+            Политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных политика в отношении
+            обработки персональных данных политика в отношении обработки
+            персональных данных политика в отношении обработки персональных
+            данных политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных.
+          </p>
+        </li>
+        <li>
+          <p>
+            Политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных политика в отношении
+            обработки персональных данных политика в отношении обработки
+            персональных данных политика в отношении обработки персональных
+            данных политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных.
+          </p>
+        </li>
+        <li>
+          <p>
+            Политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных политика в отношении
+            обработки персональных данных политика в отношении обработки
+            персональных данных политика в отношении обработки персональных
+            данных политика в отношении обработки персональных данных политика в
+            отношении обработки персональных данных.
+          </p>
+        </li>
+      </ul>
+      <br />
+      <p>
+        Политика в отношении обработки персональных данных политика в отношении
+        обработки персональных данных политика в отношении обработки
+        персональных данных политика в отношении обработки персональных данных
+        политика в отношении обработки персональных данных политика в отношении
+        обработки персональных данных политика в отношении обработки
+        персональных данных.
+      </p>
+      <br />
+    </div>
+
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h5>NEEDLE STUDIO</h5>
+            <p>Тату-школа в Москве</p>
+            <div class="row">
+              Сменить тему
+              <input
+                hidden
+                type="checkbox"
+                id="theme-toggle"
+                class="theme-toggle"
+              />
+              <label
+                for="theme-toggle"
+                class="switch-label"
+                aria-label="Switch theme"
+              >
+                <span class="switch-inner"></span>
+                <span class="switch-switch"></span>
+              </label>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p>Москва, 2-я Рыбинская улица</p>
+            <p>Пн-Пт: 13:00 - 21:00</p>
+            <p>Сб-Вс: 14:00 - 22:00</p>
+          </div>
+          <div class="footer-social">
+            <a href="">Telegram</a>
+            <a href="">VK</a>
+          </div>
+        </div>
+
+        <!-- Новый блок с юридическими ссылками -->
+        <div class="footer-legal">
+          <div class="legal-links">
+            <a href="privacy.html"
+              >Политика в отношении обработки персональных данных</a
+            >
+            <a href="consent.html"
+              >Согласие посетителя сайта на обработку персональных данных</a
+            >
+            <a href="marketing.html"
+              >Согласие на получение рекламно-информационных материалов</a
+            >
+            <a href="cookie.html">Согласие на использование файлов COOKIE</a>
+          </div>
+        </div>
+
+        <p class="footer-bottom">
+          &copy; 2025 NEEDLE STUDIO. Все права защищены.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
